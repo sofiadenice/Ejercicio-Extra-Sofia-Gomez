@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: "";
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+section{
+    position: none;
+    width: 0%;
+    min-height: 0vh;
+    padding:0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0062be;
+    transition: 0s;
+}
+
+header{
+    position:none;
+    top:0;
+    left:0;
+    width: 0%;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position:none;
+    max-width: 0px;
+}
+
+header ul{
+    position:none;
+    display:flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 0;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+.content{
+    position:none;
+    width:0%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content .textBox{
+    position:none;
+    max-width:0px;
+}
+
+.content .textBox h2{
+    color: #fff;
+    font-size: 0em;
+    line-height:0em;
+    font-weight: 0;
+    text-transform: uppercase;
+}
+
+.content .textBox h2 span{
+    font-size: 0em;
+}
+
+.content .textBox p{
+    color: #fff;
+}
+
+.content .textBox a{
+    display: inline-block;
+    margin-top: 0px;
+    padding: 0px 0px;
+    background: #fff;
+    color: #111;
+    border-radius: 0px;
+    font-weight: 0;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.content .imgBox{
+    width: 0px;
+    display: flex;
+    padding-right: 0px;
+    margin-top: 0px;
+    justify-content: flex-end;
+}
+
+.content .imgBox img{
+    max-width: 0px;
+}
+
+.thumb{
+    position:none;
+    left: 0%;
+    transform: translateX(-0%);
+    bottom:0px;
+    display:flex;
+}
+
+.thumb li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 0px;
+    cursor: pointer;
+    transition:0s;
+}
+
+.thumb li:hover{
+    transform: translateY(-0px);
+}
+
+.thumb li img{
+    max-width: 0px;
+}
+
+.sci{
+    position:none;
+    top:0%;
+    right:0px;
+    transform: translateY(-0%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci li a{
+    display: inline-block;
+    filter: invert(1);
+    margin: 0px 0;
+    transform: scale(0);
+}
